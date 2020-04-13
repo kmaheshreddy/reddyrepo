@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringBoot-Eurekaserver-Zuul"/>
+<aop-project name="SpringWithRestfull-RestFullWebServicesWithSwagger"/>
+<aop-project name="SpringBoot-Eurekaserver-client-1"/>
+<aop-project name="SpringSecurityWithRestfull-RestFullWebServices"/>
+<aop-project name="SpringBoot-Eurekaserver"/>
+<aop-project name="SpringBoot-Eurekaserver-client"/>
+<aop-project name="SpringWithRestfull-RestTemplate"/>
+<aop-project name="SpringWithRestFull-BankMgntSystem"/>
+<aop-project name="SpringWithRestfull-RestFullWebServices"/>
+<aop-project name="SpringWithRestFull-1"/>
+<aop-project name="angular-spring"/>
+<aop-project name="SpringMVC01-HelloWold"/>
+<aop-project name="SpringWithRestFull-2-EmployeeMgnt"/>
+</aop-reference-model>

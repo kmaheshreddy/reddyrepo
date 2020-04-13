@@ -1,0 +1,16 @@
+server:
+  port: 8182
+spring:
+  application:
+      name: ZuulDemo
+      
+      
+zuul:
+  routes:
+    SpringBoot-Eurekaserver-client:
+                       path:  /api/**
+                       service-id: SpringBoot-Eurekaserver-client
+                       strip-prefix: false
+                       
+                             
+  

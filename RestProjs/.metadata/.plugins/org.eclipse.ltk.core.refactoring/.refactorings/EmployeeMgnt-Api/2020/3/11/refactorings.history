@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.dxc.controller&apos; to &apos;com.dxc.Main&apos;&#x0D;&#x0A;- Original project: &apos;EmployeeMgnt-Api&apos;&#x0D;&#x0A;- Original element: &apos;EmployeeMgnt-Api/src/main/java/com.dxc.controller&apos;&#x0D;&#x0A;- Renamed element: &apos;EmployeeMgnt-Api/src/main/java/com.dxc.Main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.dxc.controller&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.dxc.controller" name="com.dxc.Main" qualified="false" references="true" stamp="1583932664630" textual="false" version="1.0"/>
+</session>

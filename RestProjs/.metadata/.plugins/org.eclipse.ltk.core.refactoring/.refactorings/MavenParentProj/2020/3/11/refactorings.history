@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MavenParentProj/MavenProj-DAO&apos; to &apos;MavenProj-Api&apos;" description="Rename resource &apos;MavenProj-DAO&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="MavenProj-DAO" name="MavenProj-Api" stamp="1583931595409" updateReferences="true"/>
+</session>

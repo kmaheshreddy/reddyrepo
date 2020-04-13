@@ -1,0 +1,11 @@
+1585116759881	Copy package
+1585131178414	Rename package 'com.dxc.main'
+1585131194504	Rename package 'com.dxc.exceptions.beans'
+1585131203424	Rename package 'com.dxc.daos'
+1585131214050	Rename package 'com.dxc.controller'
+1585131226511	Rename package 'com.dxc.configs'
+1585131235889	Rename package 'com.dxc.bo'
+1585131246110	Rename package 'com.dxc.intializer'
+1585131258394	Rename package 'com.dxc.services'
+1585131266333	Rename package 'com.dxc.swagger'
+1585131284097	Rename package 'com.dxc.emp.exceptions.beans'
