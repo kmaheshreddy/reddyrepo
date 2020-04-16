@@ -1,0 +1,38 @@
+<div [hidden]="flag">
+  <form (ngSubmit)="onSubmit()">
+  <div>
+      <label for="id">ID:</label>
+      <input type="text" required [(ngModel)]="emp1.id" placeholder="ID" name="id" class="form-control" id="email">
+    </div><br>
+  
+    <div class="form-group">
+      <label for="name">name:</label>
+      <input  type="text" required [(ngModel)]="emp1.name" placeholder="Name" name="name" class="form-control" id="Name">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="deptname">Deptname</label>
+     <input  type="text" required [(ngModel)]="emp1.deptname" placeholder="Deptname" name="deptname" class="form-control" id="lastName">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="company">Company:</label>
+       <input  type="text" required [(ngModel)]="emp1.company"placeholder="Company" name="company" class="form-control" id="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="Role">Role:</label>
+       <input type="text" required [(ngModel)]="emp1.role"  placeholder="Role" name="role" class="form-control" id="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="Salary">Salary:</label>
+       <input  type="text" required [(ngModel)]="emp1.salary" placeholder="Salary" name="salary" class="form-control" id="lastName">
+      </div>
+      <br>
+    <button type="submit">Create</button>
+  </form>
+  </div>
+  <div [hidden]="!flag">
+    <h4>data Updated successfully!</h4>
+</div>

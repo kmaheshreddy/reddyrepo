@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+  </head>
+<body>
+<div>
+    <table> 
+      <thead>
+      <tr >
+
+        <th>EMP ID</th>
+        <th>EMP COMPANY</th>
+        <th>EMP DEPT</th>
+        <th>EMP NAME</th>
+        <th>EMP ROLE</th>
+        <th>EMP SLARY</th>
+      </tr>
+    </thead>
+      <tbody style="width:50px;height:20px;">
+      <tr *ngFor="let emp of emps">
+            <td>{{emp.id}}</td>
+            <td>{{emp.company}}</td>
+            <td>{{emp.deptname}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.role}}</td>
+            <td>{{emp.salary}}</td>
+        <td><button class="btn btn-danger" (click)="deleteUser(emp.id)"> Delete emp</button></td>
+       <td><button class="btn btn-danger" (click)="updateEmp(emp.id)"> update emp</button></td>
+
+      </tr>
+      </tbody>
+    </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+ <html lang="en">
+<head>
+</head>
+<body>
+<div [hidden]="flag">
+  <form (ngSubmit)="onSubmit()">
+    <table >
+       <tr>
+      <td><label for="id">ID:</label></td>
+    <td> <input type="text" required [(ngModel)]="emp.id" placeholder="ID" name="id" class="form-control" id="email">
+    </td>
+    </tr>
+  
+  <tr>
+  <td> <label for="name">name:</label></td>
+<td>  <input  type="text" required [(ngModel)]="emp.name" placeholder="Name" name="name" class="form-control" id="Name">
+    </td>
+    </tr>
+  <tr>
+  <td> <label for="deptname">Deptname</label></td>
+  <td> <input  type="text" required [(ngModel)]="emp.deptname" placeholder="Deptname" name="deptname" class="form-control" id="lastName">
+    </td>
+    </tr>
+    <tr>
+      <td>  <label for="company">Company:</label></td>
+        <td>   <input  type="text" required [(ngModel)]="emp.company"placeholder="Company" name="company" class="form-control" id="lastName">
+        </td>
+        </tr>
+
+    <tr>
+      <td>   <label for="Role">Role:</label></td>
+        <td>   <input type="text" required [(ngModel)]="emp.role"  placeholder="Role" name="role" class="form-control" id="lastName">
+        </td>
+        </tr>
+    <tr>
+      <td>  <label for="Salary">Salary:</label></td>
+        <td>  <input  type="text" required [(ngModel)]="emp.salary" placeholder="Salary" name="salary" class="form-control" id="lastName">
+        </td>
+        </tr>
+    <tr>
+        <button type="submit">Create</button>
+  </tr>
+</table>
+  </form>
+  </div>
+  <div [hidden]="!flag">
+    <h4>You submitted successfully!</h4>
+</div>
+</body>
+</html>

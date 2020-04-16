@@ -1,0 +1,33 @@
+<html>
+  <body>
+<table > 
+      <thead>
+      <tr >
+        <th>EMP ID</th>
+        <th>EMP COMPANY</th>
+        <th>EMP DEPT</th>
+        <th>EMP NAME</th>
+        <th>EMP ROLE</th>
+        <th>EMP SLARY</th>
+      </tr>
+    </thead>
+      <tbody >
+      <tr *ngIf="emp">
+            <td>{{emp.id}}</td>
+            <td>{{emp.company}}</td>
+            <td>{{emp.deptname}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.role}}</td>
+            <td>{{emp.salary}}</td>
+      </tr>
+      </tbody>
+</table><br>
+<form (ngSubmit)="submit()">
+  <div>
+      <label for="id">ID:</label>
+      <input type="text" required [(ngModel)]="id" placeholder="ID" name="id" class="form-control" id="email">
+    </div>
+    <button type="submit">submit</button>
+</form>
+</body>
+</html>
