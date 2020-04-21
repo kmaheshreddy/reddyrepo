@@ -11,6 +11,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @EnableWebMvc
 @ComponentScan("com.dxc.controller")
 public class MVCconfig {
+//hi mahesh
 	@Bean
 	public ViewResolver getResolver() {
 		InternalResourceViewResolver vr = null;
